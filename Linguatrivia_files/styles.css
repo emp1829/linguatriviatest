@@ -40,7 +40,7 @@ body {
 .app-img {
 	/*display: block;*/
     transition: transform .2s;
-    width: 100%;
+    width: 50%;
 }
 }
 
