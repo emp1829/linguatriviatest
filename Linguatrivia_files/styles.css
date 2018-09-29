@@ -440,6 +440,8 @@ html {
 	-webkit-transform:rotate(45deg);
 }
 
+/* style the comment boxes in the testimonies */
+
 @media screen and (min-width: 50em) 
 {
 	.grid-testimonials li
@@ -447,30 +449,35 @@ html {
     width: 40%;
     padding-left: 5%;
   }
-  	.grid-testimonials li:nth-last-child(1) /* centre the last comment box */
+  	.grid-testimonials li:nth-last-child(1) 
   {
     width: 95%;
   }
 
-  	.grid-testimonials li:nth-last-child(2) /* centre the last comment box */
+  	.grid-testimonials li:nth-last-child(2) 
   {
     width: 95%;
   }
-  	.grid-testimonials li:nth-child(1) /* centre the last comment box */
+  	.grid-testimonials li:nth-child(1) 
   {
 
     width: 95%;
   }
 
-  .grid-testimonials li:nth-child(2) /* centre the last comment box */
+  .grid-testimonials li:nth-child(2) 
   {
     width: 40%;
   }
 
-    .grid-testimonials li:nth-child(3) /* centre the last comment box */
+    .grid-testimonials li:nth-child(3) 
   {
     width: 55%;
   }
 
 }
 
+/* centred column size */
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
