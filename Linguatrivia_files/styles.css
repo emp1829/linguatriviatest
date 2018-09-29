@@ -35,6 +35,15 @@ body {
 }
 }
 
+@media screen and (max-width: 49em) 
+{
+.app-img {
+	/*display: block;*/
+    transition: transform .2s;
+    width: 100%;
+}
+}
+
 .app-img:hover{
 	-ms-transform: scale(1.1); /* IE 9 */
 	-webkit-transform: scale(1.1); /* safari 3-8 */
