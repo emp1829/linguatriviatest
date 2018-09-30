@@ -1,12 +1,29 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*responsive viewport */
+@-ms-viewport{
+  width: device-width;
+}
+
+/*responsive typogrpahy */
 body {
-	font-size: 18px;
-	line-height: 36px;
-	font-weight: 400;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	position: relative;
+}
+
+@media screen and (min-width: 601px) {
+body {
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
 }
 
 .navbar {
@@ -29,7 +46,6 @@ body {
 @media screen and (min-width: 50em) 
 {
 .app-img {
-	/*display: block;*/
     transition: transform .2s;
     width: 25%;
 }
@@ -38,7 +54,6 @@ body {
 @media screen and (max-width: 49em) 
 {
 .app-img {
-	/*display: block;*/
     transition: transform .2s;
     width: 50%;
 }
@@ -61,7 +76,6 @@ body {
 }
 
 .lscp-jumbotron-image {
-	/*background-color: #025286;*/
 	background-image: url(images/cloudblurbg.jpg);
 	background-size: auto;
 	background-size: 100% 100%;
@@ -187,17 +201,14 @@ nav {
 	}
 }
 
-.active{
-
-}
 
 .blockquote-footer {
 	color: #013659;
 }
 
 .btn {
-	border-radius: 300px;
-	padding: 20px 50px;
+	border-radius: 300px; 
+	padding: 20px 50px; 
 	box-shadow: 3px 3px 3px rgba(0, 0, 0, .2);
 	font-weight: 700;
 	font-family: Lato,Helvetica,Arial,sans-serif;
@@ -224,15 +235,10 @@ nav {
 /* Responsive font size */
 h1 {
 	font-weight: 800;
-	font-size: 3rem;
 	color: #ffffff;
 	margin-bottom: 36px;
 	font-family:"Arial Black", Gadget, sans-serif;
 	/* text-transform: uppercase; */
-}
-
-h2{
-	font-size: 2.8rem;
 }
 
 p {
@@ -301,12 +307,14 @@ html {
   html {
     font-size: 1.2rem;
   }
+
 }
 
 @include media-breakpoint-up(md) {
   html {
     font-size: 1.4rem;
   }
+
 }
 
 @include media-breakpoint-up(lg) {
