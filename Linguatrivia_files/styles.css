@@ -41,21 +41,21 @@ body {
 	letter-spacing: 1px;
 }
 
-/* zoom image on hover */
-
-@media screen and (min-width: 50em) 
+/* zoom image on hover - different image width depending on devices */
+/* tablets and desktop*/
+@media screen and (min-width: 768px) 
 {
 .app-img {
     transition: transform .2s;
     width: 25%;
 }
 }
-
-@media screen and (max-width: 49em) 
+/* mobile and low res tablets */
+@media screen and (max-width: 767px) 
 {
 .app-img {
     transition: transform .2s;
-    width: 50%;
+    width: 80%;
 }
 }
 
@@ -195,7 +195,7 @@ nav {
 	
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 768px) { 
 	.lscp-jumbotron-testimonials p {
 		padding: 0 100px;
 	}
@@ -461,7 +461,7 @@ html {
 
 /* style the comment boxes in the testimonies */
 
-@media screen and (min-width: 50em) 
+@media screen and (min-width: 768px) 
 {
 	.grid-testimonials li
   {
