@@ -454,7 +454,7 @@ html {
 		font-weight: 400;
 	}
 	.lscp-jumbotron-testimonials p {
-		padding: 0 50px; /* 100 */
+		padding: 0 1em; /* 100 */
 	}
 
 /* app image hover effect on desktop */
