@@ -10,6 +10,7 @@
 body {
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	position: relative;
+	overflow-x: hidden;
 }
 
 @media screen and (min-width: 601px) {
