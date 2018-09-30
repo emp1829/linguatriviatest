@@ -45,6 +45,13 @@ html, body {
 }
 
 
+	.imageboxbig{
+		float: right;
+	}
+
+	.imageboxsmall{
+		float: right;
+	}
 
 /* mobile and low res tablets */
 @media screen and (max-width: 767px) 
