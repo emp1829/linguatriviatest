@@ -44,21 +44,23 @@ html, body {
   width: auto;
 }
 
-/* zoom image on hover - different image width depending on devices */
+
 
 /* mobile and low res tablets */
 @media screen and (max-width: 767px) 
 {
-	  body {
+	body {
     font-size: 18px;
-  }
+  	}
+  	
   .lscp_p_intro {
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 15px;
 	text-align: center;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	}
 
+/* zoom image on hover - different image width depending on devices */
 .app-img {
     transition: transform .2s;
     width: 80%;
@@ -227,9 +229,6 @@ nav {
 	color: #026BAF;
 	padding: 10px;
 }
-
-
-
 
 h1 {
 	font-weight: 800;
@@ -457,7 +456,12 @@ html {
 	-webkit-transform:rotate(45deg);
 }
 
-/* style the comment boxes in the testimonies */
+/* centred column size */
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 /* tablets and desktop*/
 @media screen and (min-width: 768px) 
 {
@@ -481,6 +485,9 @@ html {
 	text-align: center;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
+
+/* style the comment boxes in the testimonies */
+
 	.grid-testimonials li
   {
     width: 40%;
@@ -511,10 +518,4 @@ html {
     width: 55%;
   }
 
-}
-
-/* centred column size */
-.col-centered{
-    float: none;
-    margin: 0 auto;
 }
