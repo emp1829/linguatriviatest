@@ -34,6 +34,12 @@ body {
   body {
     font-size: 18px;
   }
+  .lscp_p_intro {
+	font-weight: 600;
+	font-size: 1rem;
+	text-align: center;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	}
 }
 
 .navbar {
@@ -222,6 +228,7 @@ nav {
 }
 
 
+
 .blockquote-footer {
 	color: #013659;
 }
@@ -252,7 +259,6 @@ nav {
 }
 
 
-/* Responsive font size */
 h1 {
 	font-weight: 800;
 	color: #ffffff;
