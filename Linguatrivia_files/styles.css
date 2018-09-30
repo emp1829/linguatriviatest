@@ -52,10 +52,10 @@ html, body {
 	body {
     font-size: 18px;
   	}
-  	
+
   .lscp_p_intro {
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 1em;
 	text-align: center;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	}
