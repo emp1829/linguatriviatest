@@ -45,13 +45,13 @@ html, body {
 }
 
 
-	.imageboxbig{
-		float: right;
-	}
+.imageboxbig{
+	float: right;
+}
 
-	.imageboxsmall{
-		float: right;
-	}
+.imageboxsmall{
+	float: right;
+}
 
 /* mobile and low res tablets */
 @media screen and (max-width: 767px) 
@@ -464,7 +464,7 @@ html {
 		padding: 0 1em; /* 100 */
 	}
 
-/* app image hover effect on desktop */
+	/* app image hover effect on desktop */
 	.app-img {
 		transition: transform .2s;
 		width: 25%;
