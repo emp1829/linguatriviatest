@@ -20,6 +20,6 @@ Software: Adobe Creative Suite, Git, Github, Jira<br>
 Technologies: Bootstrap 4, HTML5, CSS3, jQuery<br>
 Text editor: Sublime Text<br>
 Browser: Chrome 69 on Windows 10 with Developer tools for debugging<br>
-Pen and Paper for wireframing<br>
-Timeframe<br>
+Pen and Paper for wireframing<br
+## Timeframe
 One week (part-time)
