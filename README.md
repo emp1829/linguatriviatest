@@ -3,6 +3,8 @@ Responsive website redesign and development for Linguatrivia - a tool for langua
 
 Project website: https://spiderlili.github.io/linguatriviatest/
 
+Development blog: https://spiderlili.com/2018/10/01/linguatrivia-website-redesign-development/
+
 ![alt text](https://spiderlilystudio.files.wordpress.com/2018/10/responsivelinguatrivia1.jpg)
 
 ## Tasks
