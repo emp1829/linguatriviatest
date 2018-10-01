@@ -91,6 +91,9 @@ html, body {
 	.imageboxsmall{
 		width: 100%;
 	}
+	.img-responsive{
+		width: 100%;
+}
 }
 
 /* zoom image on hover - different image width depending on devices */
@@ -156,6 +159,10 @@ html, body {
 	padding-bottom: 1em;
 	padding-left: 1.5em;
 	padding-right: 2em;
+}
+
+.img-responsive{
+	float: left;
 }
 
 .textbox-strong{
