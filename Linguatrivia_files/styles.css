@@ -61,13 +61,16 @@ html, body {
 	}
 
 	h1{
-		font-size: 18px;
+		font-size: 24px;
 	}
 
+/* centre logo on mobile */
 	.navbar-brand>img {
 	height: 100%;
-	padding: 7px 14px;
-	width: auto;
+	position: absolute;
+    left: 50%;
+    display: block;
+    text-align: center;
 	}
 
 	.lscp_p_intro {
