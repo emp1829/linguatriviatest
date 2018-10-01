@@ -66,6 +66,7 @@ html, body {
 
 	.navbar-brand {
     	height: 80%; 
+    	float: right;
 	}
 
 	.lscp_p_intro {
