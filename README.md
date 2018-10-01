@@ -15,7 +15,7 @@ Deliver a responsive website (desktop, tablet and mobile friendly) using HTML5, 
 ## My Roles<br>
 Digital Design (UI / UX design, visual design, colour schemes, typography and graphics elements)<br>
 Coding<br>
-Responsive web optimisation for desktop and mobile<br>
+Responsive web optimisation for desktops, tablets and mobiles<br>
 UI & UX design<br>
 Wireframing<br>
 
