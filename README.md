@@ -3,6 +3,8 @@ Website redesign and development test: https://spiderlili.github.io/linguatrivia
 
 Linguatrivia is an interactive quiz by Linguascope, a tool for language teachers looking to organise competitions within their school.
 
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+
 ## Tasks
 Analyse the www.linguatrivia.com website and redesign the home page with the existing content. <br>
 Re-design the “Linguatrivia” logo in the top page banner to suit the new design.<br>
