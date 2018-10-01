@@ -60,6 +60,10 @@ html, body {
 		font-size: 14px;
 	}
 
+	h1{
+		font-size: 1.2em;
+	}
+
 	.lscp_p_intro {
 		font-weight: 600;
 		font-size: 1em;
