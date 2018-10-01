@@ -43,15 +43,6 @@ html, body {
 	width: auto;
 }
 
-
-.imageboxbig{
-	float: right;
-}
-
-.imageboxsmall{
-	float: right;
-}
-
 /* mobile and low res tablets */
 @media screen and (max-width: 767px) 
 {
@@ -161,6 +152,7 @@ html, body {
 	padding-right: 2em;
 }
 
+/* image text alignment */
 .img-responsive{
 	float: left;
 }
