@@ -64,6 +64,10 @@ html, body {
 		font-size: 2.3em;
 	}
 
+	.navbar-brand {
+    	height: 80%; 
+	}
+
 	.lscp_p_intro {
 		font-weight: 600;
 		font-size: 1.2em;
