@@ -27,4 +27,4 @@ Browser: Chrome 69 on Windows 10 with Developer tools for debugging<br>
 Pen and Paper for wireframing
 
 ## Timeframe
-One week (part-time)
+3 Days (part-time)
